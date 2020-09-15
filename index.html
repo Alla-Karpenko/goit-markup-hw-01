@@ -5,95 +5,108 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=, initial-scale=1.0" />
   <title>Вебстудия</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
+  <link  
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/styles.CSS">
 </head>
 
 <body>
   <!-- Header -->
-  <header>
-    <nav>
-      <a land"en">WebStudio<aria-label="логотип вебстудии></a>
-      <ul>
-        <li>
-          <a href="">Студия</a>
+  <header class="header">
+    <nav class="navigation">
+      <a class="logo" lang"en">WebStudio<aria-label="логотип вебстудии></a>
+      <ul class="navigation-list list">
+        <li class="navigation-list-item">
+          <a class="navigation-list-link link" href="">Студия</a>
         </li>
-        <li>
-          <a href="">Портфолио</a>
+        <li class="navigation-list-item">
+          <a class="navigation-list-link link" href="">Портфолио</a>
         </li>
-        <li>
-          <a href="">Контакты</a>
+        <li class="navigation-list-item">
+          <a class="navigation-list-link link" href="">Контакты</a>
         </li>
       </ul>
     </nav>
-    <address>
-      <a href="emeilto:info@devstudio.com">info@devstudio.com</a>
+    <address class="address">
+      <a class="header-mail-link link" href="emeilto:info@devstudio.com">info@devstudio.com</a>
     </address>
     <address>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <a class="header-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
     </address>
   </header>
   <main>
     <!-- HERO -->
-    <section>
-      <h1>Эффективные решения для вашего бизнеса</h1>
+    <section class="hero">
+      <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
     </section>
     <button type="button">Заказать услугу</button>
       
   </main>
-    <!-- Преимущества -->
-      <section>
-          <h3>Внимание к деталям</h3>
+    <!-- SERVICES -->
+      <section class="services">
+          <h4 class="services-subtitle">Внимание к деталям</h4>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-          <h3>Пунктуальность</h3>
+          <h4 class="services-subtitle">Пунктуальность</h4>
             <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-          <h3>Планирование</h3>
+          <h4 class="services-subtitle">Планирование</h4>
             <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-          <h3>Современные технологии</h3>
+          <h4 class="services-subtitle">Современные технологии</h4>
             <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
       </section>
      <!-- Чем мы занимаемся-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="heading">Чем мы занимаемся</h2>
         <ul>
-          <li>
+          <li class="heading list">
             <img src="./header/img/foto1.jpg" alt="человек печатает"width=370" height="294" />
           </li>
-          <li>
+          <li class="heading list">
             <img src="./header/img/foto2.jpg" alt="телефон в руках"width=370" height="294" />
           </li>
-          <li>
+          <li class="heading list">
             <img src="./header/img/foto3.jpg" alt="планшет в руках"width=370" height="294" />
           </li>
         </ul>
       </section>
       <!-- Наша команда--> 
-      <section>
+      <section class="command">
        <h2>Наша команда</h2>
-        <ul>
+        <ul class="command list" >
           <li>
-            <img src="./header/img/teamcard1.jpg" alt="Игорь Демьяненко"width=270" height="368" />
+            <img src="./header/img/img1.jpg" alt="Игорь Демьяненко"width=270" height="260" />
           </li>
+          <h3>Игорь Демьяненко</h3>
+          <p lang="en">Product Designer</p>
           <li> 
-            <img src="./header/img/teamcard2.jpg" alt="Ольга Репина"width=270" height="368" />
+            <img src="./header/img/img2.jpg" alt="Ольга Репина"width=270" height="260" />
           </li>
+          <h3>Ольга Репина</h3>
+          <p lang="en">Frontend Developer</p>
           <li>
-            <img src="./header/img/teamcard3.jpg" alt="Николай Тарасов"width=270" height="368" />
+            <img src="./header/img/img3.jpg" alt="Николай Тарасов"width=270" height="260" />
           </li>
+          <h3>Николай Тарасов</h3>
+          <p lang="en">Marketing</p>
           <li>
-            <img src="./header/img/teamcard4.jpg" alt="Михаил Ермаков"width=270" height="368" />
+            <img src="./header/img/img4.jpg" alt="Михаил Ермаков"width=270" height="260" />
           </li>
+          <h3>Михаил Ермаков</h3>
+          <p lang="en">UI Designer</p>
         </ul>
       </section>
     <!--Подвал страницы-->
-  <footer>
+  <footer class="footer">
     <a land"en">WebStudio<aria-label="логотип вебстудии></a>
     <address>
-      <a href="г. Киев, пр-т Леси Украинки, 26"></a>
+      <a class="footer-contact" href="г. Киев, пр-т Леси Украинки, 26">г. Киев, пр-т Леси Украинки, 26</a>
     </address>
     <address>
-      <a href="emailto:info@example.com">info@example.com</a>  
+      <a class="footer-contact" href="emailto:info@example.com">info@example.com</a>  
     </address>
     <address>
-      <a href="tel:+380991111111">+38 099 111 11 11</a>
+      <a class="footer-contact" href="tel:+380991111111">+38 099 111 11 11</a>
     </address>
   </footer>
 </body>
